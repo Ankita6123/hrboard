@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HrBoard - Smart Workforce & HR Management</title>
+  <meta
+    content="HrBoard is an all-in-one platform for Admin, HR, Supervisors, and Workforce management. Simplify attendance, payroll, leave, and manpower operations."
+    name="description">
+  <meta content="HRMS, Workforce Management, Admin Dashboard, Payroll, Attendance, Leave, Supervisor Tools"
+    name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/logo_final1.png" rel="icon">
+  <link href="assets/logo_final1.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,600,700"
+    rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm custom-navbar">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <img src="assets/logo_final1.png" alt="HrBoard Logo" height="50" class="me-2">
+
+      </a>
+
+      <!-- Mobile toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Features</a></li>
+          <!--  <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>-->
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- ======= Hero Section ======= -->
+<section class="hero d-flex align-items-center" data-aos="fade-up" data-aos-duration="1200" style="min-height: 100vh;">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-12" data-aos="zoom-in" data-aos-delay="200">
+        
+        <!-- Heading -->
+        <h1 class="gradient-heading mb-3 animate-fade-in" data-aos="fade-down" data-aos-delay="400" 
+            style="font-size: clamp(2rem, 5vw, 4rem); line-height: 1.2;">
+          HrBoard
+        </h1>
+        
+        <!-- Subtitle -->
+        <h2 class="mb-4 animate-slide-up" data-aos="fade-up" data-aos-delay="600"
+            style="font-size: clamp(1.2rem, 3vw, 2rem); line-height: 1.4;">
+          Smart Workforce, HR & Admin Management
+        </h2>
+
+        <!-- Buttons -->
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-4" data-aos="zoom-in" data-aos-delay="800">
+          <a href="#about" 
+             class="btn btn-primary btn-lg animate-bounce px-4 py-2" 
+             style="background-color: #1565C0; border-color: #1565C0;">
+            Get Started
+          </a>
+          
+          <button class="btn btn-outline-primary btn-lg animate-bounce px-4 py-2" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#videoModal" 
+                  style="background-color: #1565C0; color: white; border-color: #1565C0;">
+            <i class="fa-solid fa-play me-2"></i> Watch Video
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ======= Video Modal ======= -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white">HrBoard Overview</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <!-- Use video tag instead of iframe -->
+          <video id="demoVideo" src="assets/video_final.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-section py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="row align-items-center"> <!-- Left Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0 text-center"> <img src="assets/hrms1.png"
+              class="about-img" alt="About HrBoard"> </div> <!-- Right Content -->
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h2 class="gradient-heading">About Us</h2>
+              <p class="lead text-muted"> HrBoard is a modern platform for businesses to manage manpower efficiently.
+                Designed for <strong>Admins</strong>, <strong>HRs</strong>, and <strong>Supervisors</strong> to
+                streamline <span class="highlight">attendance</span>, <span class="highlight">payroll</span>, <span
+                  class="highlight">leave</span>, <span class="highlight">compliance</span>, and <span
+                  class="highlight">workforce productivity</span>. </p>
+              <ul class="list-unstyled mt-4">
+                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Simplify HR processes</li>
+                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Boost employee engagement
+                </li>
+                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Smart analytics for better
+                  decisions</li>
+              </ul> <!-- Buttons -->
+              <div class="mt-4"> <a href="#services" class="btn btn-primary px-4 py-2">Explore Features</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Why Choose Us ======= -->
+    <section id="why-choose" class="py-5 bg-light">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center mb-5">
+          <h2 class="gradient-heading">Why Choose HrBoard?</h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="feature-box">
+              <i class="fa-solid fa-bolt icon"></i>
+              <h5>Fast & Secure</h5>
+              <p>Quick setup with enterprise-grade security.</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="feature-box">
+              <i class="fa-solid fa-thumbs-up icon"></i>
+              <h5>User Friendly</h5>
+              <p>Simple dashboards for HR, Admin & Supervisors.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="feature-box">
+              <i class="fa-solid fa-chart-line icon"></i>
+              <h5>Scalable</h5>
+              <p>Perfect for startups to large enterprises.</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="feature-box">
+              <i class="fa-solid fa-headset icon"></i>
+              <h5>24/7 Support</h5>
+              <p>Dedicated team for your business growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Features -->
+    <section id="services" class="py-5 features">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center mb-5">
+          <h2 class="gradient-heading">Features</h2>
+          <p class="section-subtitle">Everything you need to manage your workforce in one place</p>
+
+        </div>
+        <div class="row g-4">
+
+          <!-- Employee Management -->
+          <div class="col-md-4 col-sm-6 " data-aos="zoom-in" data-aos-delay="100">
+            <div class="card feature-card h-100 shadow-sm text-center p-4 border-0">
+              <div class="icon mb-3">
+                <img src="assets/icon1.png" alt="Employee Management" width="90" />
+              </div>
+              <h5>Employee Management</h5>
+              <p>Effective employee management boosts productivity and employee satisfaction, driving business success.
+              </p>
+            </div>
+          </div>
+
+          <!-- Attendance Management -->
+          <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card feature-card h-100 shadow-sm text-center p-4 border-0">
+              <div class="icon mb-3">
+                <img src="assets/icon2.png" alt="Attendance Management" width="90" />
+              </div>
+              <h5>Attendance Management</h5>
+              <p>Streamline attendance tracking, ensure accountability, and optimize resource allocation.</p>
+            </div>
+          </div>
+
+          <!-- Salary Management -->
+          <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card feature-card h-100 shadow-sm text-center p-4 border-0">
+              <div class="icon mb-3">
+                <img src="assets/icon3.png" alt="Salary Management" width="90" />
+              </div>
+              <h5>Salary Management</h5>
+              <p>Optimize payroll processes and ensure timely, accurate compensation with our system.</p>
+            </div>
+          </div>
+
+          <!-- Performance Tracking -->
+          <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card feature-card h-100 shadow-sm text-center p-4 border-0">
+              <div class="icon mb-3">
+                <img src="assets/icon5.png" alt="Performance Tracking" width="90" />
+              </div>
+              <h5>Performance Tracking</h5>
+              <p>Monitor employee performance with KPIs and feedback tools to boost engagement and results.</p>
+            </div>
+          </div>
+
+          <!-- Recruitment Management -->
+          <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="card feature-card h-100 shadow-sm text-center p-4 border-0">
+              <div class="icon mb-3">
+                <img src="assets/icon6.png" alt="Recruitment Management" width="90" />
+              </div>
+              <h5>Recruitment Management</h5>
+              <p>Manage hiring, candidate tracking, and onboarding with an integrated recruitment system.</p>
+            </div>
+          </div>
+
+          <!-- Reports & Analytics -->
+          <div class="col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card feature-card h-100 shadow-sm text-center p-4 border-0">
+              <div class="icon mb-3">
+                <img src="assets/icon8.png" alt="Reports" width="90" />
+              </div>
+              <h5>Reports & Analytics</h5>
+              <p>Gain insights with smart reports and analytics for data-driven HR decision-making.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ((Pricing section))
+<section id="pricing" class="py-5">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title text-center mb-5">
+      <h2 class="fw-bold gradient-heading">Pricing Plans</h2>
+      <p class="text-muted">Affordable & Transparent pricing for every business</p>
+    </div>
+    <div class="row g-4">
+      
+    
+      <div class="col-md-4">
+        <div class="card pricing-card text-center shadow-sm p-4 h-100">
+          <h4 class="fw-bold mb-3">Starter</h4>
+          <h2 class="fw-bold text-primary">₹1,499<span class="fs-6 text-muted">/month</span></h2>
+          <p class="text-muted">For small teams up to 20 employees</p>
+          <ul class="list-unstyled my-3">
+            <li>✔ Employee Management</li>
+            <li>✔ Attendance Tracking</li>
+            <li>✘ Payroll Automation</li>
+          </ul>
+          <button class="btn btn-outline-primary w-100">Choose Plan</button>
+        </div>
+      </div>
+
+    
+      <div class="col-md-4">
+        <div class="card pricing-card text-center shadow-lg border border-primary p-4 h-100 highlight-card">
+          <div class="badge bg-primary text-white position-absolute top-0 start-50 translate-middle mt-3 px-3 py-1 rounded-pill">
+            Popular
+          </div>
+          <h4 class="fw-bold mb-3">Professional</h4>
+          <h2 class="fw-bold text-primary">₹3,999<span class="fs-6 text-muted">/month</span></h2>
+          <p class="text-muted">For growing companies up to 100 employees</p>
+          <ul class="list-unstyled my-3">
+            <li>✔ Employee Management</li>
+            <li>✔ Attendance & Payroll</li>
+            <li>✔ Performance Reports</li>
+          </ul>
+          <button class="btn btn-primary w-100">Choose Plan</button>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="card pricing-card text-center shadow-sm p-4 h-100">
+          <h4 class="fw-bold mb-3">Enterprise</h4>
+          <h2 class="fw-bold text-primary">₹7,999<span class="fs-6 text-muted">/month</span></h2>
+          <p class="text-muted">For enterprises with unlimited workforce</p>
+          <ul class="list-unstyled my-3">
+            <li>✔ All Professional Features</li>
+            <li>✔ Advanced Analytics</li>
+            <li>✔ 24/7 Dedicated Support</li>
+          </ul>
+          <button class="btn btn-outline-primary w-100">Choose Plan</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+-->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonial py-5">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Centered Heading -->
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="gradient-heading">What Our Clients Say</h2>
+          </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <p class="testimonial-text">
+                "HrBoard transformed our HR operations — attendance and payroll are now seamless!"
+              </p>
+              <h6 class="testimonial-author">- Anjali, HR Manager</h6>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <p class="testimonial-text">
+                "Best decision we made for workforce management. Easy to use and scalable."
+              </p>
+              <h6 class="testimonial-author">- Rajesh, CEO</h6>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <p class="testimonial-text">
+                "The supervisor tools and mobile access are game-changers for our company."
+              </p>
+              <h6 class="testimonial-author">- Priya, Operations Head</h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+    <div class="client-slider mt-5">
+      <div class="logos text-center">
+        <img src="assets/client1.png" alt="Client 1">
+        <img src="assets/client2.png" alt="Client 2">
+        <img src="assets/client3.png" alt="Client 3">
+        <img src="assets/client4.png" alt="Client 4">
+        <img src="assets/client5.png" alt="Client 5">
+       
+        <img src="assets/client1.png" alt="Client 1">
+        <img src="assets/client2.png" alt="Client 2">
+        <img src="assets/client3.png" alt="Client 3">
+      </div>
+    </div>
+-->
+      </div>
+    </section>
+
+
+    <!-- ======= FAQ Section ======= -->
+    <section id="faq" class="faq-section py-5 bg-light">
+      <div class="container" data-aos="fade-up">
+        <div class="text-center">
+          <h2 class="gradient-heading">❓ Frequently Asked Questions</h2>
+          <p class="text-muted">Everything you need to know about HrBoard</p>
+        </div>
+
+        <div class="accordion shadow-sm" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                What is HrBoard?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                HrBoard is an <strong>all-in-one workforce, HR, and admin management platform</strong> that helps you
+                streamline employee management, payroll, and operations.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                Can I use HrBoard on mobile?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes ✅, HrBoard is <strong>fully responsive</strong> and works seamlessly on mobile, tablet, and desktop
+                devices.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Is my data secure with HrBoard?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Absolutely 🔒. We use <strong>bank-level encryption</strong> and cloud backups to keep your data safe
+                and secure at all times.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="accordion-item mb-3 border-0 shadow-sm rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                Do you offer customer support?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes, our <strong>24/7 customer support</strong> team is always available to assist you via chat, email,
+                or phone.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container" data-aos="fade-up">
+
+    <!-- Section Heading -->
+    <div class="text-center mb-5">
+      <h2 class="gradient-heading">📩 Contact Us</h2>
+      <p class="text-muted">Get in touch with us for a free demo</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Contact Info -->
+      <div class="col-lg-6 col-md-12">
+        <!-- Email -->
+        <div class="d-flex align-items-center mb-4">
+          <div class="icon-circle me-3 flex-shrink-0">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h5 class="mb-0 text-break">
+            <a href="mailto:support@HrBoard.com" class="text-decoration-none text-dark">
+              support@HrBoard.com
+            </a>
+          </h5>
+        </div>
+
+        <!-- Phone -->
+        <div class="d-flex align-items-center mb-4">
+          <div class="icon-circle me-3 flex-shrink-0">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h5 class="mb-0">
+            <a href="tel:+918806100082" class="text-decoration-none text-dark">
+              +91 88061 00082
+            </a>
+          </h5>
+        </div>
+
+        <!-- Address -->
+        <div class="d-flex align-items-start">
+          <div class="icon-circle me-3 flex-shrink-0">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <h5 class="mb-0 text-break">
+            <a href="https://maps.google.com/?q=Jai+Ganesh+Vision,+Akurdi,+Pune,+Maharashtra+411033"
+               target="_blank" class="text-decoration-none text-dark">
+              Jai Ganesh Vision, Akurdi, Pune, Maharashtra 411033
+            </a>
+          </h5>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6 col-md-12">
+        <div class="card shadow-lg border-0 p-4">
+          <form id="contactForm">
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control form-control-lg" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control form-control-lg" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea name="message" class="form-control form-control-lg" rows="4" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 btn-lg">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 HrBoard. All Rights Reserved.</p>
+      <div>
+        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Vendor JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <!-- ======= Script to Stop Video ======= -->
+<script>
+  const videoModal = document.getElementById('videoModal');
+  const demoVideo = document.getElementById('demoVideo');
+
+  // Play video when modal opens
+  videoModal.addEventListener('shown.bs.modal', () => {
+    demoVideo.play().catch(err => {
+      console.log('Autoplay prevented:', err);
+    });
+  });
+
+  // Pause & reset video when modal closes
+  videoModal.addEventListener('hidden.bs.modal', () => {
+    demoVideo.pause();
+    demoVideo.currentTime = 0; // reset to start
+  });
+</script>
+<script>
+  // Select all nav links inside the collapsed navbar
+  const navLinks = document.querySelectorAll('.navbar-collapse .nav-link');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Collapse the navbar after clicking
+      const bsCollapse = new bootstrap.Collapse(navbarCollapse, {toggle: false});
+      bsCollapse.hide();
+    });
+  });
+</script>
+<script>
+  document.getElementById("contactForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = {
+      name: this.name.value,
+      email: this.email.value,
+      message: this.message.value
+    };
+
+    try {
+      const res = await fetch("/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData)
+      });
+
+      const text = await res.text();
+      alert(text); //  Show success/error in alert
+      this.reset(); // Clear form after submission
+    } catch (err) {
+      alert(" Something went wrong. Please try again.");
+    }
+  });
+</script>
+
+
+</body>
+
+</html>
